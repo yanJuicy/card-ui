@@ -49,7 +49,7 @@ class App extends StatelessWidget {
                 ],
               ),
               const SizedBox(
-                height: 120,
+                height: 100,
               ),
               Text(
                 "Total Balance",
@@ -88,7 +88,7 @@ class App extends StatelessWidget {
                 ],
               ),
               const SizedBox(
-                height: 100,
+                height: 80,
               ),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -119,14 +119,14 @@ class App extends StatelessWidget {
                   color: const Color(0xFF1F2123),
                   borderRadius: BorderRadius.circular(20),
                 ),
-                child: const Padding(
-                  padding: EdgeInsets.all(30),
+                child: Padding(
+                  padding: const EdgeInsets.all(30),
                   child: Row(
                     children: [
                       Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Text(
+                          const Text(
                             "Euro",
                             style: TextStyle(
                               color: Colors.white,
@@ -134,25 +134,25 @@ class App extends StatelessWidget {
                               fontWeight: FontWeight.w600,
                             ),
                           ),
-                          SizedBox(
+                          const SizedBox(
                             height: 10,
                           ),
                           Row(
                             children: [
-                              Text(
+                              const Text(
                                 "6 428",
                                 style: TextStyle(
                                   color: Colors.white,
                                   fontSize: 20,
                                 ),
                               ),
-                              SizedBox(
+                              const SizedBox(
                                 width: 5,
                               ),
                               Text(
                                 "EUR",
                                 style: TextStyle(
-                                  color: Colors.white,
+                                  color: Colors.white.withOpacity(0.8),
                                   fontSize: 20,
                                 ),
                               ),
